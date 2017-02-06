@@ -3,7 +3,7 @@
 # @author:   Jerry Yang(hy0kle@gmail.com)
 
 #set -x
-STYLE="scream"
+STYLE="rain_princess"
 
 python3 evaluate.py \
     --style $STYLE \
