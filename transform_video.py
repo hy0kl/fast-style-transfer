@@ -90,7 +90,7 @@ def main():
         subprocess.call(" ".join(out_args), shell=True)
         print('Video at: %s' % opts.out)
         shutil.rmtree(opts.tmp_dir)
- 
+
 if __name__ == '__main__':
     main()
 
