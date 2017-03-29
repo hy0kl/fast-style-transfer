@@ -242,7 +242,7 @@ def check_opts(opts):
         assert opts.batch_size > 0
 
 def main():
-    check_version()
+    #check_version()
     parser = build_parser()
     opts = parser.parse_args()
     check_opts(opts)
